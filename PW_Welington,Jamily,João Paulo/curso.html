@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UEPA</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/curso.css">
+</head>
+
+<body>
+<!--Script(Bootstrap)-->
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><script src="js/bootstrap.js"></script>
+<!--Estrutura Html-->
+    <header>
+        <!--Menu de navegação-->
+        <div class="container col-md-4">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+                <img src="img/uepa-logo.png" alt="uepa-logo" id="logo">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle-navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a href="index.html">Página inicial</a>
+                        <a href="#">Estrutura do curso</a>
+                        <a href="avaliacao.html">Sistema de avaliação</a>
+                        <a href="docentes.html">Corpo docente</a>
+                        <a href="estrutura.html">Estrutura física do campus</a>
+                        <a href="colegiado.html">Colegiado do curso</a>
+                        <a href="nde.html">Núcleo docente estruturante</a>
+                        <a href="faleconosco.php">Fale conosco</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!--Introdução a Estrutura do curso usando card do Bootstrap-->
+        <div class="containerc">
+            <h1 class="text-center">Estrutura do Curso de Ciência de Dados - UEPA</h1>
+          <div class="card mt-4">
+            <img src="img/curso.jpg" alt="" class="img-curso">
+            <div class="card-body">
+                <p>Abaixo apresentamos a estrutura curricular do curso de Bacharelado em Ciência de Dados em forma de tabelas. 
+                    Essa organização curricular foi cuidadosamente desenvolvida para proporcionar uma formação abrangente e progressiva aos alunos ao longo de 8 semestres. 
+                    O currículo abrange desde os fundamentos teóricos até as aplicações práticas no campo da Ciência de Dados. 
+                    A estrutura curricular foi projetada para preparar os discentes para enfrentarem os desafios complexos e aproveitarem as oportunidades dessa área em constante crescimento. Essa estrutura apresenta disciplinas de aulas presenciais, Laboratórios, Ensino em plataforma online, Visitas institucionais, Pesquisa e preparação para o mercado de trabalho crescente.</p>
+                <p> Abaixo segue as tabelas de forma organizadas sendo utilizadas para apresentação da estrutura do curso, Primeiro a tabela de semestres, Em seguida a tabela de Disciplinas Optativas e por último a tabela de Cargas Hórarias: </p>
+
+                <h6 class="card-title">1º Semestre:</h6>
+                <p></p>
+
+                <!--Tabelas de semestres também retiradas do Bootstrap-->
+                <table class="table table-bordered table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">Disciplinas</th>
+                        <th scope="col">Carga Hóraria Presencial</th>
+                        <th scope="col">Carga Hóraria EAD</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Introdução à Ciência de Dados</td>
+                        <td>80</td>
+                        <td>20</td>
+                      </tr>
+                      <tr>
+                        <td>Programação em Python</td>
+                        <td>100</td>
+                        <td>20</td>
+                      </tr>
+                      <tr>
+                        <td>Matemática para Ciência de Dados</td>
+                        <td>80</td>
+                        <td>20</td>
+                      </tr>
+                      <tr>
+                        <td>Estatística Básica</td>
+                        <td>80</td>
+                        <td>20</td>
+                      </tr>
+                      <tr>
+                        <td>Fundamentos de Banco de Dados</td>
+                        <td>60</td>
+                        <td>20</td>
+                      </tr>
+                      <tr>
+                        <td>Total de Horas do Semestre</td>
+                        <td>400</td>
+                        <td>100</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <h6 class="card-title">2º Semestre:</h6>
+                <p></p>
+                <table class="table table-bordered table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">Disciplinas</th>
+                        <th scope="col">Carga Hóraria Presencial</th>
+                        <th scope="col">Carga Hóraria EAD</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Estruturas de Dados</td>
+                        <td>80</td>
+                        <td>20</td>
+                      </tr>
+                      <tr>
+                        <td>Machine Learning Supervisionado</td>
+                        <td>100</td>
+                        <td>20</td>
+                      </tr>
+                      <tr>
+                        <td>Análise Exploratória de Dados</td>
+                        <td>80</td>
+                        <td>20</td>
+                      </tr>
+                      <tr>
+                        <td>Probabilidade e Estatística Avançada</td>
+                        <td>90</td>
+                        <td>20</td>
+                      </tr>
+                      <tr>
+                        <td>Análise de Redes Complexas (Optativa)</td>
+                        <td>80</td>
+                        <td>0</td>
+                      </tr>
+                      <tr>
+                        <td>Total de Horas do Semestre</td>
+                        <td>430</td>
+                        <td>80</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <h6 class="card-title">3º Semestre:</h6>
+                  <p></p>
+                  <table class="table table-bordered table-hover">
+                      <thead>
+                        <tr>
+                          <th scope="col">Disciplinas</th>
+                          <th scope="col">Carga Hóraria Presencial</th>
+                          <th scope="col">Carga Hóraria EAD</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Aprendizado de Máquina</td>
+                          <td>100</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Processamento de Dados em Escala</td>
+                          <td>100</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Análise e Visualização de Dados</td>
+                          <td>70</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Mineração de Dados</td>
+                          <td>100</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Bioinformática (Optativa)</td>
+                          <td>100</td>
+                          <td>0</td>
+                        </tr>
+                        <tr>
+                          <td>Total de Horas do Semestre</td>
+                          <td>470</td>
+                          <td>80</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <h6 class="card-title">4º Semestre:</h6>
+                  <p></p>
+                  <table class="table table-bordered table-hover">
+                      <thead>
+                        <tr>
+                          <th scope="col">Disciplinas</th>
+                          <th scope="col">Carga Hóraria Presencial</th>
+                          <th scope="col">Carga Hóraria EAD</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Aprendizado Profundo</td>
+                          <td>100</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Métodos Estatísticos Avançados</td>
+                          <td>90</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Análise de Redes Sociais</td>
+                          <td>80</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Mineração de Texto</td>
+                          <td>90</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Computação Cognitiva (Optativa)</td>
+                          <td>90</td>
+                          <td>0</td>
+                        </tr>
+                        <tr>
+                          <td>Total de Horas do Semestre</td>
+                          <td>450</td>
+                          <td>80</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <h6 class="card-title">5º Semestre:</h6>
+                  <p></p>
+                  <table class="table table-bordered table-hover">
+                      <thead>
+                        <tr>
+                          <th scope="col">Disciplinas</th>
+                          <th scope="col">Carga Hóraria Presencial</th>
+                          <th scope="col">Carga Hóraria EAD</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Aprendizado Não Supervisionado</td>
+                          <td>100</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Processamento de Linguagem Natural</td>
+                          <td>80</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Programação Web</td>
+                          <td>100</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Análise de Decisão</td>
+                          <td>80</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Processamento de Linguagem Natural Avançado (Optativa)</td>
+                          <td>100</td>
+                          <td>0</td>
+                        </tr>
+                        <tr>
+                          <td>Total de Horas do Semestre</td>
+                          <td>460</td>
+                          <td>80</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <h6 class="card-title">6º Semestre:</h6>
+                  <p></p>
+                  <table class="table table-bordered table-hover">
+                      <thead>
+                        <tr>
+                          <th scope="col">Disciplinas</th>
+                          <th scope="col">Carga Hóraria Presencial</th>
+                          <th scope="col">Carga Hóraria EAD</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Análise de Séries Temporais</td>
+                          <td>80</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>Processamento Distribuído</td>
+                            <td>90</td>
+                            <td>20</td>
+                          </tr>
+                        <tr>
+                          <td>Aprendizado por Reforço</td>
+                          <td>90</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Modelagem Preditiva</td>
+                          <td>100</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Processamento de Imagens(Optativa)</td>
+                          <td>90</td>
+                          <td>0</td>
+                        </tr>
+                        <tr>
+                          <td>Total de Horas do Semestre</td>
+                          <td>450</td>
+                          <td>80</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <h6 class="card-title">7º Semestre:</h6>
+                  <p></p>
+                  <table class="table table-bordered table-hover">
+                      <thead>
+                        <tr>
+                          <th scope="col">Disciplinas</th>
+                          <th scope="col">Carga Hóraria Presencial</th>
+                          <th scope="col">Carga Hóraria EAD</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Interação Humano-Computador</td>
+                          <td>80</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Análise de Dados Não Estruturados</td>
+                          <td>80</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Tópicos Avançados em Ciência de Dados</td>
+                          <td>90</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Business Intelligence</td>
+                          <td>60</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Análise de Big Data</td>
+                          <td>90</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Total de Horas do Semestre</td>
+                          <td>400</td>
+                          <td>100</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <h6 class="card-title">8º Semestre:</h6>
+                  <p></p>
+                  <table class="table table-bordered table-hover">
+                      <thead>
+                        <tr>
+                          <th scope="col">Disciplinas</th>
+                          <th scope="col">Carga Hóraria Presencial</th>
+                          <th scope="col">Carga Hóraria EAD</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Computação em nuvem</td>
+                          <td>90</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Computação quântica</td>
+                          <td>80</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Inteligência Artificial Avançada</td>
+                          <td>80</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Ética em Ciência de Dados</td>
+                          <td>60</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Segurança da Informação</td>
+                          <td>100</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>Trabalho de Conclusão de Curso(TCC)</td>
+                            <td>120</td>
+                            <td>0</td>
+                          </tr>
+                        <tr>
+                          <td>Total de Horas do Semestre</td>
+                          <td>530</td>
+                          <td>80</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                <!--Tabela de Disciplinas Optativas e de Cargas Hórarias-->
+                <h6 class="card-title">Disciplinas Optativas:</h6>
+                  <p></p>
+                  <table class="table table-bordered table-hover">
+                      <thead>
+                        <tr>
+                          <th scope="col">Disciplinas</th>
+                          <th scope="col">Carga Hóraria</th>                          
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Análise de Redes Complexas</td>
+                          <td>80</td>                         
+                        </tr>
+                        <tr>
+                          <td>Bioinformática</td>
+                          <td>100</td>                       
+                        </tr>
+                        <tr>
+                          <td>Computação Cognitiva</td>
+                          <td>90</td>                         
+                        </tr>
+                        <tr>
+                          <td>Processamento de Linguagem Natural Avançado</td>
+                          <td>100</td>                         
+                        </tr>
+                        <tr>
+                          <td>Processamento de Imagens</td>
+                          <td>90</td>                        
+                        </tr>
+                        <tr>
+                    </table>
+
+                    <h6 class="card-title">Cargas Hórarias:</h6>
+                    <p></p>
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col">Tipo de Atividade</th>
+                            <th scope="col">Carga Hóraria Total</th>                          
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Disciplinas Obrigatórias</td>
+                            <td>2930</td>                         
+                          </tr>
+                          <tr>
+                            <td>Disciplinas Optativas</td>
+                            <td>460</td>                       
+                          </tr>
+                          <tr>
+                            <td>Trabalho de Conclusão de Curso (TCC)</td>
+                            <td>120</td>                         
+                          </tr>
+                          <tr>
+                            <td>Atividades Complementares</td>
+                            <td>200</td>                         
+                          </tr>
+                          <tr>
+                            <td>Estágio Obrigatório</td>
+                            <td>100</td>                        
+                          </tr>
+                          <tr>
+                            <td>Carga Horária Total do Curso</td>
+                            <td>3810</td>                          
+                          </tr>
+                        </tbody>
+                      </table>
+  
+                </div>
+            </div>
+          </div>
+        </div>
+    </main>
+    <footer>
+        <p>Site desenvolvido por João Paulo Brito, Jamilly Gonçalves Batista e Welington Morais Ferreira Júnior</p>
+    </footer>
+</body>
+</html>

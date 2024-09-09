@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #7b7de1, #3E4095);
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #a6a7f8;
+    color: white;
+    border: 1px solid white;
+  }
+  
+th {
+    text-align: left;
+    padding: 8px;
+    background-color: #1b1c67;
+}

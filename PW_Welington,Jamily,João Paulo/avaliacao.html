@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UEPA</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/avaliacao.css">
+</head>
+<body>
+<!--Script(Bootstrap)-->
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><script src="js/bootstrap.js"></script>
+<!--Estrutura Html-->
+    <header>
+        <!--Menu de navegação-->
+        <div class="container col-md-4">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+                <img src="img/uepa-logo.png" alt="uepa-logo" id="logo">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle-navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a href="index.html">Página inicial</a>
+                        <a href="curso.html">Estrutura do curso</a>
+                        <a href="#">Sistema de avaliação</a>
+                        <a href="docentes.html">Corpo docente</a>
+                        <a href="estrutura.html">Estrutura física do campus</a>
+                        <a href="colegiado.html">Colegiado do curso</a>
+                        <a href="nde.html">Núcleo docente estruturante</a>
+                        <a href="faleconosco.php">Fale conosco</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="containerc">
+            <h1 class="text-center">Sistema de Avaliação - UEPA</h1>
+          <div class="card mt-4">
+            <div class="card-body">
+                <p>O sistema de avaliação da Universidade Estadual do Pará consiste nos discentes realizarem duas avaliações intervalares
+                    e uma avaliação final caso necessário.</p>
+                  
+                <p>Os alunos que ao realizarem a 1º e a 2º avaliação e conseguirem obter uma média maior ou igual a 8,0(oito) serão aprovados sem precisar realizar a avaliação final.
+                    Os discentes que obtiverem uma média entre 4,5(quatro e meio) e 7,5(sete e meio) deverão realizar a avaliação final para serem aprovados. Já os que obtiverem uma nota inferior a 4,0(quatro) nas duas avaliações serão automaticamente reprovados.
+                    Os cálculos das devidas notas necessárias para a avaliação final são baseadas na tabela abaixo:
+                </p>
+                <!--Tabela do Bootstrap para a exibição da tabela-->
+                <table class="table table-bordered table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">Média Obtida nas 2 Avaliações</th>
+                        <th scope="col">Pontuação Necessária na Avaliação Final</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>4,0</td>
+                            <td>8,0</td>
+                        </tr>
+                        <tr>
+                            <td>4,5</td>
+                            <td>7,5</td>
+                        </tr>
+                        <tr>
+                            <td>5,0</td>
+                            <td>7,0</td>
+                        </tr>
+                        <tr>
+                            <td>5,6</td>
+                            <td>6,5</td>
+                        </tr>
+                        <tr>
+                            <td>6,0</td>
+                            <td>6,0</td>
+                        </tr>
+                        <tr>
+                            <td>6,5</td>
+                            <td>5,5</td>
+                        </tr>
+                        <tr>
+                            <td>7,0</td>
+                            <td>5,0</td>
+                        </tr>
+                        <tr>
+                            <td>7,5</td>
+                            <td>4,5</td>
+                        </tr>
+                    </tbody>
+                </table>                
+            </div>
+          </div>
+        </div>
+    </main>
+    <footer>
+        <p>Site desenvolvido por João Paulo Brito, Jamilly Gonçalves Batista e Welington Morais Ferreira Júnior</p>
+    </footer>
+</body>
+</html>

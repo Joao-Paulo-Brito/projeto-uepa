@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+    width: 130px;
+}
+
+.navbar{
+    background-color: #3E4095;
+}
+
+.navbar a{
+    padding: 10px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.navbar a:hover{
+    color: #ED3237;
+    border: 1px solid yellow;
+    padding: 14px;
+    border-radius: 15%;
+}
+
+main{
+    padding: 75px;
+    width: 1300px;
+    margin: auto;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.titulo{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.titulo hr{
+    height: 1px;
+    background-color: black;
+    width: 200px;
+    margin: auto;
+}
+
+/*Campus*/
+.campus img{
+    margin-top: 20px;
+    padding-left: 170px;
+}
+
+.campus p{
+    padding-top: 15px;
+    line-height: 30px;
+    margin: auto;
+    width: 700px;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+/*estrutura*/
+.estrutura img{
+    margin-left: 130px;
+    margin-top: 20px;
+    width: 900px;
+}
+
+.estrutura p{
+    padding-top: 15px;
+    line-height: 30px;
+    margin: auto;
+    width: 700px;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+/*Rodapé*/
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+/*Responsividade*/
+@media(max-width: 1300px){
+    main{
+        margin-top: 15px;
+        width: 700px;
+    }
+
+    .campus img{
+        padding-left: 0;
+        width: 600px;
+    }
+
+    .campus p{
+        width: 600px;
+    }
+
+    .estrutura img{
+        width: 600px;
+        margin: auto;
+    }
+
+    .estrutura p{
+        width: 600px;
+    }
+
+    .titulo{
+        margin-bottom: 30px;
+    }
+
+    footer{
+        margin: auto;
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 700px){
+    main{
+        width: 500px;
+        margin-right: 120px;
+        padding: 0;
+    }
+
+    .campus .titulo{
+        margin-top: 90px;
+        margin-bottom: 0;
+    }
+
+    .campus p{
+        width: 580px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .estrutura p{
+        width: 580px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    footer{
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 590px){
+    main{
+        width: 250px;
+        margin-right: 190px;
+        padding: 0;
+    }
+
+    .campus img{
+        width: 400px;
+        padding-left: 0;
+    }
+
+    .campus p{
+        width: 400px;
+        font-size: 14px;
+    }
+
+    .estrutura img{
+        width: 400px;
+    }
+
+    .estrutura p{
+        width: 400px;
+        font-size: 14px;
+    }
+
+    .campus .titulo{
+        margin-top: 90px;
+        margin-bottom: 0;
+    }
+
+    .titulo h3{
+        font-size: 20px;
+        width: 350px;
+        margin-left: 20px;
+    }
+
+    .titulo hr{
+        margin-left: 100px;
+    }
+
+}
+
+footer {
+    background-color: #3E4095;
+    color: white;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}

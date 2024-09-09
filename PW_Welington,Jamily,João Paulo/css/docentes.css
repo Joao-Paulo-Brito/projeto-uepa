@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/*Menu*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+    width: 130px;
+}
+
+.navbar{
+    background-color: #3E4095;
+    max-width: 1400px;
+    height: auto;
+}
+
+.navbar a{
+    padding: 10px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.navbar a:hover{
+    color: #ED3237;
+    border: 1px solid yellow;
+    padding: 14px;
+    border-radius: 15%;
+}
+
+
+
+/*Corpo Docente CSS*/
+@media  (max-width: 767px) {
+    
+    #about-area img{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+}
+.textp{
+    text-indent: 20px;
+}
+
+h1{
+    margin-top: 100px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.container{
+    
+    margin-top: 10px;
+    margin-bottom: 80px;
+
+}
+/*Lista formação academica*/
+.spaced-list li {
+    display: flex;
+    align-items: right;
+    margin-bottom: 10px;
+    
+}
+.spaced-list li::before {
+    content: "•";
+    margin-right: 10px;
+}
+/*Card formação academica*/
+.card {
+    background-color: rgb(172, 203, 237);
+    height: 450px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 2px black;
+  }
+  .card-title{
+    color: white;
+    background-color: #3E4095;
+    text-align: center;
+  }
+  
+  .card-body {
+    height: 100%;
+    overflow: hidden;
+  }
+  .card-text{
+    font-weight: bold;
+  }
+  .card-group{
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Cards para foto dos professores */
+.card2 {
+    background-color: rgb(216, 238, 245);
+    border-radius: 5px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+  }
+  
+.card-img-top {
+
+    border-radius: 5%;
+    width: 200px;
+    height: auto;
+    margin: 40px auto;
+  
+  }
+  
+.card-titlep {
+    font-weight: bold;
+    color: white;
+    background-color: #3E4095;
+    margin-top: 10px;
+  }
+  
+.custom-bar{
+    width: 100%;
+    max-width: 1000px;
+    height: 2px;
+    background-color: rgb(37, 37, 37);
+    margin: 0 auto 70px;
+}
+    /*Rodapé*/
+    footer {
+        background-color: #3E4095;
+        color: white;
+        padding: 20px;
+    }
+    
+    footer p {
+        font-size: 14px;
+        margin: 0;
+        text-align: center;
+}
